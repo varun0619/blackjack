@@ -1,0 +1,89 @@
+body {
+    background-image: url("https://t3.ftcdn.net/jpg/03/25/38/64/360_F_325386410_7XLHgFBmPH10k0GCUXbikWCAeFFC8145.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+h1 {
+    color: goldenrod;
+    width: fit-content;
+    text-align: center;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+#cards-el {
+color: white;
+}
+
+button {
+    font-style: italic;
+    color: #016f32;
+    width: 160px;
+    height: 38px;
+    border-radius: 12px;
+    outline: none;
+    background-color: goldenrod;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+button:hover {
+    background-color: tomato;
+}
+
+.drake {
+    color: black;
+    background-color: goldenrod;
+}
+
+
+@media (max-width:390px) {
+    body {
+        background-image: url("../blackjack/2434387.jpg");
+        background-repeat: no-repeat;
+        background-size: 60vh;
+
+    }
+
+    #cards-el {
+        background-color: green;
+        width: 110px;
+        margin: auto;
+        border:1px solid rgb(55, 55, 105);
+        border-radius: 10px;
+    }
+    
+    #sum-el{
+        background-color: green;
+        width: 110px;
+        border:1px solid rgb(55, 55, 105);
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 12px;
+        border-radius: 10px;
+    }
+    
+    #message-el {
+        background-color: #123757;
+        color: goldenrod;
+    }
+
+     h1{
+        background-color: black;
+        width: 160px;
+        border-radius: 8px;
+        cursor: pointer;
+     }
+
+
+
+}
