@@ -1,2 +1,2 @@
-# here my Blackjack game project
+# here my Blackjack game
 # checkout :- https://blackjack-hazel-six.vercel.app/
